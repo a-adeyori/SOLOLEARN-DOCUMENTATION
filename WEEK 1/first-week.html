@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="index" href="styles.css" />
+    <title>SOLOLEARN DOCUMENTATION</title>
+  </head>
+  <body>
+    <!--Heading Tag--->
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+
+    <!--Paragraph Tag-->
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
+      architecto nam, soluta delectus ullam, id veritatis tempore nihil vitae,
+      laudantium qui animi nemo est ex asperiores laborum placeat? Alias, iste.
+    </p>
+
+    <!--Line Break Tag-->
+    <p>
+      First Line of Text<br />
+      Seconf Line of Text
+    </p>
+
+    <!--Text Formatting Tags-->
+    <b>Bold Text</b>
+    <i>Italized Text</i>
+    <u>Undelined Text</u>
+    <strong>Highlight Important Text</strong>
+    <em>Define Emphasized Text</em>
+
+    <!--HyperText Tag-->
+    <a href="https://www.sololearn.com/en/users/signup" target="_blank"
+      >Click here to signup for sololearn</a
+    >
+
+    <!--List Tags-->
+    <!--Ordered List-->
+    <ol>
+      <li>Genesis</li>
+      <li>Exodus</li>
+      <li>Leviticus</li>
+    </ol>
+    <!--Unordered List-->
+    <ul>
+      <li>Mango</li>
+      <li>Grapes</li>
+      <li>Pineapple</li>
+    </ul>
+
+    <!---Image Tag--->
+    <img
+      src="SOLOLEARN DOCUMENTATION\Images\PfP 0.1.jpg"
+      alt="An avatar running a code"
+      width="150"
+      height="150"
+    />
+
+    <!--Navigation Tag-->
+    <nav>
+      <a href="index.html">Second Webpage</a>
+    </nav>
+
+    <!--Bookmark Tag-->
+    <a href="#s1">Go To Section 1 </a>
+    <h2 id="s1">SECTION 1</h2>
+
+    <!--Form Tags-->
+    <form>
+      <label for="box1">Email:</label>
+      <input type="text" id="box1" />
+      <label for="pass1">Password:</label>
+      <input id="pass1" type="password" />
+      <button>Submit</button>
+    </form>
+    <!--Attributes for Form Data Storage-->
+    <form>
+      <label for="box2" name="email" value="example@gmil.com">Email:</label>
+      <input id="box2" type="text" />
+      <label for="box3" name="rec-email" value="example@gmail.com"
+        >Recovery Email:</label
+      >
+      <input id="box3" type="text" />
+      <button>Submit</button>
+    </form>
+
+    <!--Drop-down Menu-->
+    <form>
+      <label for="c">Color:</label>
+      <select id="c">
+        <option value="r">Red</option>
+        <option value="b" selected>Blue</option>
+        <option value="g">Green</option>
+      </select>
+
+      <label for="s">State:</label>
+      <select id="s">
+        <option value="o">Ogun</option>
+        <option value="l">Lagos</option>
+        <option value="a">Abuja</option>
+      </select>
+    </form>
+
+    <!--Video Tag-->
+    <video autoplay>
+      <source type="video/mp4" src="video.mp4" />
+      Video not Supported
+    </video>
+
+    <!--Audio Tag-->
+    <audio controls>
+      <source type="audio/ogg" src="audiofile.ogg" />
+    </audio>
+
+    <!--Layout Tags-->
+    <header><!--Intoductory Information--></header>
+    <main>
+      <article>
+        <!--Independent,self contained piece of information-->
+        <section><!--Break content into parts--></section>
+        <aside><!--Related Topics--></aside>
+      </article>
+    </main>
+    <footer><!--Footer Information--></footer>
+
+    <!--Inline Stlye Attributes-->
+    <p style="color: green; text-align: center">Green Centered Paragraph</p>
+    <button style="color: blue; border: 2px Solid">Next</button>
+
+    <!--Div Tag-->
+    <div style="color: red; text-align: justify">
+      <p>John3:16</p>
+      <h3>
+        For God so Loved the word that he gave his only begotten son that
+        whosoever beliveth in him shall not perish but have everlasting life
+      </h3>
+    </div>
+
+    <!--Table Tag-->
+    <table>
+      <th>Name</th>
+      <th>Rice</th>
+      <th>Beans</th>
+      <tr>
+        <td>Temi</td>
+        <td>#300</td>
+        <td>#200</td>
+      </tr>
+      <tr>
+        <td>Yori</td>
+        <td>#500</td>
+        <td>#300</td>
+      </tr>
+      <tr>
+        <td rowspan="3">#1300</td>
+      </tr>
+    </table>
+
+    <!--Intro to JavaScript-->
+    <button onclick="action">Submit</button>
+    <button onclick="alert('Error 404')">Next</button>
+
+    <!--Internal Style-->
+    <style>
+      /*Style Inheritance*/
+      em {
+        color: red;
+        text-align: justify;
+      }
+
+      /*Decsendant Selector*/
+      em b {
+        color: blue;
+      }
+    </style>
+    <em
+      >Lorem, ipsum dolor sit amet consectetur
+      <h4>
+        adipisicing elit. Cum aliquam, explicabo perspiciatis et minima ullam
+        delectus voluptas officia mollitia
+      </h4>
+      rerum porro error! <b>Accusamus qui ex voluptatem </b>facilis nulla
+      voluptates eligendi.</em
+    >
+  </body>
+</html>
