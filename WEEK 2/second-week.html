@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sololearn Documentation-Week 2</title>
+  </head>
+  <body>
+    <!--Color style-->
+    <style>
+      /*Color model : RGB and HEX code model*/
+      h4 {
+        color: rgb(0, 0, 255);
+      }
+
+      b {
+        color: #2a9d8f;
+      }
+    </style>
+    <h4>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolores
+      consequuntur quidem illo! Optio, ipsum, ea architecto tenetur fugiat,
+      repellat earum maxime eligendi perferendis eveniet temporibus. Voluptate a
+      consectetur placeat.
+    </h4>
+    <b>What is Lorem exactly?</b>
+
+    <!--Dimension style-->
+    <style>
+      main {
+        font-size: 40px;
+      }
+      section {
+        font-size: 40%;
+      }
+    </style>
+    <main>
+      Why percentages over pixel as a unit of measurement for size? This is
+      because web development is not only about designining but actually
+      creating a responsive web design. The size of pixels vary for different
+      devices due to the number of pixels present but using percentage as a unit
+      of measurement the element uses the parent size as a reference and the
+      size of a text, imgae and much more will appear the same in a smartphone,
+      laptop and other devices
+    </main>
+
+    <!--Styling Text-->
+    <style>
+      #fontstyle {
+        text-decoration: wavy underline #5b4a9f;
+        text-transform: uppercase;
+        text-shadow: -6px 6px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-weight: 700;
+      }
+    </style>
+    <p id="fontstyle">
+      You want to style a paragraph using inline styling but it affects all
+      different paragraph, don't worry CSS got you. There is an atribute called
+      id which is uniquie, you can use it by calling it in the selctor by using
+      the #id_name format
+    </p>
+
+    <!--Styling links-->
+    <style>
+      #style {
+        text-decoration: none;
+      }
+      #style :link {
+        color: rgb(0, 0, 255);
+        text-decoration: none;
+      }
+      #style :hover {
+        color: aqua;
+        font-style: italic;
+        text-decoration: none;
+      }
+      #style :active {
+        color: #ff00005e;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      #style :visited {
+        color: grey;
+        font-weight: lighter;
+        text-decoration: none;
+      }
+    </style>
+    <a id="style" href="https://github.com/a-adeyori">My Github account</a>
+
+    <!--Styling Tables-->
+    <style>
+      table {
+        border-collapse: separate;
+      }
+      tr,
+      th {
+        font-size: medium;
+      }
+      tr :nth-child(2) {
+        background-color: rgb(0, 255, 0);
+      }
+      tr :nth-child(odd) {
+        background-color: #2547dbd7;
+      }
+    </style>
+    <table>
+      <th>Fruit</th>
+      <th>Number</th>
+      <tr>
+        <td>Mango</td>
+        <td>70</td>
+      </tr>
+      <tr>
+        <td>Grape</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Pineapple</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Apple</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Orange</td>
+        <td>5</td>
+      </tr>
+    </table>
+
+    <!--Styling Lists-->
+    <style>
+      #ul1 {
+        list-style-type: circle;
+        list-style-position: inside;
+      }
+      #ul2 {
+        list-style-type: square;
+        list-style-position: outside;
+        list-style-image: url("picture.png");
+      }
+
+      #ol1 {
+        list-style-type: upper-alpha;
+        list-style-position: outside;
+      }
+      #ol2 {
+        list-style-type: upper-roman;
+        list-style-position: inside;
+        list-style-image: url("picture2.jpeg");
+      }
+    </style>
+    <ul id="ul1">
+      <li>Calculus</li>
+      <li>Pre-Calculus</li>
+    </ul>
+    <ul id="ul2">
+      <li>Classical Physics</li>
+      <li>Quantum Physics</li>
+    </ul>
+    <ol id="ol1">
+      <li>Love</li>
+      <li>Joy</li>
+    </ol>
+    <ol id="ol2">
+      <li>Peace</li>
+      <li>Patience</li>
+    </ol>
+
+    <!--Styling Forms-->
+    <style>
+      input[type="text"] {
+        border: 3px solid black;
+        color: #2a9d8f;
+      }
+      input[type="submit"] :active {
+        background-color: #0077ffb2;
+        border-radius: 20px;
+        border: none;
+        font-weight: 700;
+        color: white;
+      }
+    </style>
+    <form>
+      <label for="email">Email: </label>
+      <input id="email" type="text" /><br />
+      <label for="security">Password: </label><br />
+      <input id="security" type="password" /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
